@@ -1,14 +1,9 @@
 #coding:utf-8
 
-import sys
-reload(sys)
-sys.setdefaultencoding( "utf-8" )
-
 import requests
 from bs4 import  BeautifulSoup
 import re
 from collections import Counter
-from matplotlib import pyplot
 
 URL=['http://www.qidian.com/Book/TopDetail.aspx?TopType=3&Category=-1&PageIndex=1'
     ,'http://www.qidian.com/Book/TopDetail.aspx?TopType=3&Category=-1&PageIndex=2'
